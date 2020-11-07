@@ -1,0 +1,27 @@
+{
+  "editor.formatOnSave": true,
+  "javascript.format.enable": false,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.lineNumbers": "relative",
+  "editor.wordWrap": "on",
+  "workbench.editor.showTabs": true,
+  "eslint.validate": [
+    { "language": "javascript", "autoFix": true },
+    { "language": "javascriptreact", "autoFix": true },
+    { "language": "typescript", "autoFix": true },
+    { "language": "typescriptreact", "autoFix": true }
+  ],
+  "eslint.lintTask.enable": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "git.ignoreLimitWarning": true,
+  "i18n-ally.localesPaths": [
+    "src/i18n",
+    "ios/Pods/Folly/folly/lang",
+    "ios/Pods/boost-for-react-native/boost/locale",
+    "ios/Pods/boost-for-react-native/boost/predef/language",
+    "ios/Pods/Flipper-Folly/folly/lang",
+    "ios/Pods/Headers/Private/Flipper-Folly/folly/lang",
+    "ios/Pods/Headers/Public/Flipper-Folly/folly/lang"
+  ]
+}
