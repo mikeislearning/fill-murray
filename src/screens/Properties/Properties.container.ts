@@ -10,4 +10,7 @@ const mapStateToProps = (state: any) => ({
   error: state.properties.error,
 });
 
-export default connect(mapStateToProps, { listProperties })(Properties);
+export default connect(
+  mapStateToProps,
+  { listProperties }
+)(Properties);

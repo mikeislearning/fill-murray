@@ -9,9 +9,9 @@ Using npm v.6.13.7
 # To use this project
 
 ```
-git clone https://github.com/mikeislearning/fillmurray-shopify
-cd fillmurray-shopify
-npm install
+git clone https://github.com/mikeislearning/fill-murray
+cd fill-murray
+npm install && cd ios && pod install && cd ..
 npm start
 # in another tab or terminal window, one of:
 npm run ios
